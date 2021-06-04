@@ -136,7 +136,10 @@ export default function Home() {
         <h1>Say Hi!</h1>
         <p>Use the icons below to get in touch..</p>
         <div className="row icons">
-          <AiOutlineMail />
+          <a href="mailto:danbh7296@gmail.com">
+            <AiOutlineMail />
+          </a>
+          <a href=""></a>
           <AiOutlinePhone />
           <AiOutlineGithub />
           <AiOutlineLinkedin />

@@ -16,6 +16,17 @@ html {
   font-family: 'Viga', sans-serif;
 }
 
+button,
+a {
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .nav-toggle {
   position: fixed;
   display: flex;
@@ -53,6 +64,9 @@ nav {
     text-decoration: none;
     color: whitesmoke;
     text-transform: uppercase;
+    &:hover {
+      color: $secondary;
+    }
   }
   .line {
     height: 40px;
@@ -65,6 +79,13 @@ nav {
 nav.active {
   right: 0;
   transition: 0.8s;
+}
+
+@media screen and (min-width: 767px) {
+  nav {
+    width: 400px;
+    right: -400px;
+  }
 }
 
 .index {
@@ -102,14 +123,17 @@ nav.active {
       margin-top: 48px;
       button {
         width: 200px;
-        height: 40px;
-        padding: 12px 0 30px;
+        height: 60px;
+        padding: 18px 0 30px;
         margin-bottom: 24px;
         background-color: $secondary;
         border: 0;
         outline: none;
         color: $white;
         text-transform: uppercase;
+        &:hover {
+          background-color: $base;
+        }
       }
     }
   }
@@ -197,6 +221,10 @@ nav.active {
       color: $white;
       text-transform: uppercase;
       font-size: 18px;
+      &:hover {
+        background-color: $white;
+        color: $secondary;
+      }
     }
     img {
       position: absolute;
@@ -224,8 +252,11 @@ nav.active {
     }
     .icons {
       font-size: 3rem;
-      i {
-        margin: 0 20px;
+      svg {
+        &:hover {
+          cursor: pointer;
+          color: $secondary;
+        }
       }
     }
   }
@@ -274,7 +305,62 @@ nav.active {
         }
       }
     }
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .index {
+    .landing {
+      justify-content: center;
+      max-height: 950px;
+      h1 {
+        max-width: 600px;
+      }
+      img {
+        width: 550px;
+      }
+    }
+    .cv {
+      .header {
+        h2 {
+          width: 800px;
+        }
+      }
+    }
+    .attributes {
+      height: 650px;
+      .row {
+        display: flex;
+        section {
+          width: 400px;
+          height: 400px;
+          img {
+            width: 180px;
+            height: 180px;
+          }
+        }
+      }
+    }
+    .projects {
+      .row {
+        section {
+          width: 400px;
+          img {
+            width: 180px;
+          }
+        }
+      }
+    }
     .close {
+      button {
+        width: 600px;
+        margin: 100px 0 20px;
+      }
+      img {
+        width: 250px;
+        top: 100px;
+        right: 20%;
+      }
     }
   }
 }
@@ -358,6 +444,16 @@ nav.active {
   }
 }
 
+@media screen and (min-width: 767px) {
+  .modal-1 {
+    align-items: center;
+    height: 1000px;
+    img {
+      width: 500px;
+    }
+  }
+}
+
 .modal-2 {
   display: flex;
   flex-direction: column;
@@ -401,6 +497,11 @@ nav.active {
     p {
       width: 400px;
     }
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .modal-2 {
   }
 }
 

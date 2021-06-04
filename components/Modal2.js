@@ -3,6 +3,7 @@ import React from 'react';
 const Modal2 = () => {
   return (
     <div className="modal modal-2">
+      <div></div>
       <section>
         <h2>Bio</h2>
         <p>
