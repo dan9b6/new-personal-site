@@ -1,22 +1,30 @@
-@import url("https://fonts.googleapis.com/css2?family=Viga&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
 
 $secondary: #ff00ff;
 $base: #0000ff;
 $white: #f5f5f5;
 
+html {
+  background-color: #192542;
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Viga", sans-serif;
+  font-family: 'Viga', sans-serif;
 }
 
 .nav-toggle {
   position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   top: 0;
   right: 0;
-  width: 80px;
-  height: 80px;
+  width: 50px;
+  height: 50px;
   border: none;
   font-size: 24px;
   background-color: $secondary;
@@ -38,16 +46,16 @@ nav {
   right: -100%;
   width: 100%;
   height: 100vh;
-  background-color: $base;
-  box-shadow: 10px 8px 10px 8px black;
+  background-color: #192542;
   transition: 0.8s;
+  z-index: 1;
   a {
     text-decoration: none;
     color: whitesmoke;
     text-transform: uppercase;
   }
   .line {
-    height: 80px;
+    height: 40px;
     width: 1px;
     background-color: whitesmoke;
     margin: 30px 0;
@@ -83,20 +91,20 @@ nav.active {
     }
   }
   .cv {
-    height: 80vh;
+    height: 85vh;
     padding: 40px 30px;
     text-align: center;
+    background-color: $white;
     color: #192542;
     .buttons {
-      height: 500px;
       width: 100%;
       flex-direction: column;
       margin-top: 48px;
       button {
         width: 200px;
-        height: 80px;
-        padding: 16px 0;
-        margin-bottom: 32px;
+        height: 40px;
+        padding: 12px 0 30px;
+        margin-bottom: 24px;
         background-color: $secondary;
         border: 0;
         outline: none;
@@ -105,23 +113,241 @@ nav.active {
       }
     }
   }
+  .attributes {
+    padding: 40px 30px;
+    width: 100%;
+    background-color: $base;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: whitesmoke;
+    text-align: center;
+    h1 {
+      text-decoration: underline;
+      text-decoration-color: $secondary;
+    }
+    section {
+      margin: 20px 30px;
+      img {
+        width: 100%;
+      }
+      h2 {
+        margin: 20px 0;
+        text-decoration: underline;
+        text-decoration-color: $secondary;
+      }
+    }
+  }
+  .projects {
+    padding: 40px 30px;
+    width: 100%;
+    background-color: $white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #192542;
+    text-align: center;
+    h1 {
+      text-decoration: underline;
+      text-decoration-color: $secondary;
+    }
+    h2 {
+      margin: 20px 0;
+      text-decoration: underline;
+      text-decoration-color: $secondary;
+    }
+    h4 {
+      margin: 20px 0;
+      a {
+        color: $secondary;
+        text-decoration: none;
+      }
+    }
+    section {
+      margin: 20px 30px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .close {
+    padding: 40px 30px;
+    width: 100%;
+    position: relative;
+    background-color: $base;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: $white;
+    text-align: center;
+    h1 {
+      text-decoration: underline;
+      text-decoration-color: $secondary;
+    }
+    h4 {
+      margin: 20px 0;
+    }
+    button {
+      width: 100%;
+      height: 100px;
+      margin: 160px 0 20px;
+      background-color: $secondary;
+      border: 0;
+      outline: none;
+      color: $white;
+      text-transform: uppercase;
+      font-size: 18px;
+    }
+    img {
+      position: absolute;
+      width: 200px;
+      right: 0;
+      top: 45%;
+    }
+  }
+  footer {
+    padding: 40px 30px;
+    width: 100%;
+    position: relative;
+    background-color: #192542;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: $white;
+    text-align: center;
+    h1 {
+      text-decoration: underline;
+      text-decoration-color: $secondary;
+    }
+    p {
+      margin: 20px 0;
+    }
+    .icons {
+      font-size: 3rem;
+      i {
+        margin: 0 20px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .index {
+    .landing {
+      flex-direction: row;
+    }
+    .cv {
+      height: 450px;
+      display: flex;
+      flex-direction: column;
+      .header {
+        display: flex;
+        justify-content: center;
+        h2 {
+          width: 500px;
+        }
+      }
+    }
+    .attributes {
+      height: 650px;
+      .row {
+        display: flex;
+        section {
+          width: 30%;
+          height: 400px;
+          img {
+            width: 180px;
+            height: 180px;
+          }
+        }
+      }
+    }
+    .projects {
+      .row {
+        display: flex;
+        flex-direction: row;
+        section {
+          width: 30%;
+          img {
+            width: 180px;
+          }
+        }
+      }
+    }
+    .close {
+    }
+  }
+}
+
+.modal-overlay {
+  transition: 0.8s ease;
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(25, 37, 66, 1);
+}
+
+.modal-overlay.active {
+  opacity: 1;
 }
 
 .modal {
   background-color: #192542;
+  transition: 0.8s ease;
   width: 100%;
-  height: 90vh;
+  height: 100vh;
   padding: 40px 30px;
   text-align: center;
   overflow-y: scroll;
 }
 
+.modal-trial {
+  position: fixed;
+  transition: 0.8s;
+  top: -100%;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  background-color: rgba(25, 37, 66, 1);
+}
+
+.modal-trial.active {
+  transition: 0.8s;
+  top: 0;
+}
+
+.close-modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  width: 70px;
+  height: 70px;
+  background-color: transparent;
+  font-size: 2rem;
+  color: $secondary;
+  border: none;
+  position: absolute;
+  z-index: 1000;
+  top: 20px;
+  left: 20px;
+  &:focus {
+    border: none;
+    outline: none;
+  }
+}
+
 .modal-1 {
   display: flex;
+  transition: 0.8s ease;
   flex-direction: column;
   justify-content: space-evenly;
-  height: 100vh;
   color: $white;
+  z-index: 1;
   span {
     color: $secondary;
     text-decoration: underline;
@@ -137,9 +363,13 @@ nav.active {
   flex-direction: column;
   align-items: center;
   color: $white;
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
   img {
-    width: 100px;
-    margin-bottom: 1rem;
+    height: 60px;
+    margin: 0 20px 20px;
   }
   section {
     margin-bottom: 50px;
@@ -163,5 +393,57 @@ nav.active {
   }
   span {
     text-decoration: underline;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .modal-2 {
+    p {
+      width: 400px;
+    }
+  }
+}
+
+.modal-3 {
+  color: $white;
+  h2 {
+    margin: 16px 0;
+  }
+  img {
+    width: 200px;
+  }
+  ul {
+    margin: 20px;
+    list-style: none;
+    li {
+      color: $secondary;
+      span {
+        color: $white;
+      }
+      a {
+        color: $secondary;
+      }
+    }
+  }
+  .line {
+    margin: 30px 0;
+    position: relative;
+    background-color: $white;
+    height: 100px;
+    width: 2px;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .modal-3 {
+    section {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      p {
+        width: 400px;
+      }
+    }
   }
 }

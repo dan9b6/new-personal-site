@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 const Modal2 = () => {
   return (
@@ -21,48 +21,48 @@ const Modal2 = () => {
       <section>
         <h2>Skills</h2>
         <div className="row">
-          <img src="images/wave.gif" alt="" />
-          <img src="images/wave.gif" alt="" />
-          <img src="images/wave.gif" alt="" />
+          <img src="images/html.png" alt="" />
+          <img src="images/css.png" alt="" />
+          <img src="images/js.png" alt="" />
         </div>
         <div className="row">
-          <img src="images/wave.gif" alt="" />
-          <img src="images/wave.gif" alt="" />
-          <img src="images/wave.gif" alt="" />
+          <img src="images/react.png" alt="" />
+          <img src="images/jq.png" alt="" />
+          <img src="images/sass.png" alt="" />
         </div>
         <div className="row">
-          <img src="images/wave.gif" alt="" />
-          <img src="images/wave.gif" alt="" />
-          <img src="images/wave.gif" alt="" />
+          <img src="images/mdb.png" alt="" />
+          <img src="images/bts.png" alt="" />
+          <img src="images/ghub.png" alt="" />
         </div>
       </section>
       <section>
         <h2>Qualification</h2>
-        <img src="images/wave.gif" alt="" />
-        <h2>Ironhack Lisbon</h2>
+        <img src="images/ih.png" alt="" />
+        <h2>
+          <a href="https://www.ironhack.com/en/lisbon" target="_blank">
+            Ironhack Lisbon
+          </a>
+        </h2>
         <h4>Top 3 Global Tech Academy</h4>
         <p>
-          I didn't take the most conventional into Software Engineering. I
-          completed a Web Development Bootcamp set in the heart of Lisbon,
-          Portugal. During my time on the course I covered a wide range of
-          skills and coding languages. By the end of the course, I had created
-          three web applications.
+          I didn't take the most conventional into Software Engineering. I completed a Web
+          Development Bootcamp set in the heart of Lisbon, Portugal. During my time on the course I
+          covered a wide range of skills and coding languages. By the end of the course, I had
+          created three web applications.
         </p>
       </section>
       <section>
         <h2>Employment</h2>
-        <img src="images/wave.gif" alt="" />
+        <img src="images/ttr.png" alt="" />
         <h2>bendando</h2>
         <h4>Web Development Agency</h4>
         <p>
-          This was a Web Development Bootcamp set in the heart of Lisbon,
-          Portugal. During my time on the course I covered a wide range of
-          skills and coding languages. By the end of the course, I had created
-          three web applications.
+          This was a Web Development Bootcamp set in the heart of Lisbon, Portugal. During my time
+          on the course I covered a wide range of skills and coding languages. By the end of the
+          course, I had created three web applications.
         </p>
       </section>
-
-      <button>Find out more...</button>
     </div>
   );
 };

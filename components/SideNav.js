@@ -1,5 +1,5 @@
-import { useState } from "react";
-import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import { useState } from 'react';
+import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 
 const SideNav = () => {
   const [navToggle, setNavToggle] = useState(false);
@@ -13,14 +13,26 @@ const SideNav = () => {
       <button className="nav-toggle" onClick={toggle}>
         {navToggle ? <AiOutlineClose /> : <AiOutlineMenu />}
       </button>
-      <nav className={navToggle ? "active" : ""}>
-        <a href="">Home</a>
+      <nav className={navToggle ? 'active' : ''}>
+        <a href="#home" onClick={() => setNavToggle(!navToggle)}>
+          Home
+        </a>
         <div className="line"></div>
-        <a href="">CV</a>
+        <a href="#cv" onClick={() => setNavToggle(!navToggle)}>
+          CV
+        </a>
         <div className="line"></div>
-        <a href="">Projects</a>
+        <a href="#attributes" onClick={() => setNavToggle(!navToggle)}>
+          What can I offer?
+        </a>
         <div className="line"></div>
-        <a href="">Contact</a>
+        <a href="#projects" onClick={() => setNavToggle(!navToggle)}>
+          Projects
+        </a>
+        <div className="line"></div>
+        <a href="#contact" onClick={() => setNavToggle(!navToggle)}>
+          Contact
+        </a>
       </nav>
     </>
   );

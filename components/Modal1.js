@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-const Modal1 = () => {
+const Modal1 = ({ modal1 }) => {
   return (
     <div className="modal modal-1">
       <h1>See...</h1>
