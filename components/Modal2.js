@@ -1,9 +1,8 @@
-import React from 'react';
+import React from "react";
 
 const Modal2 = () => {
   return (
     <div className="modal modal-2">
-      <div></div>
       <section>
         <h2>Bio</h2>
         <p>
@@ -47,10 +46,11 @@ const Modal2 = () => {
         </h2>
         <h4>Top 3 Global Tech Academy</h4>
         <p>
-          I didn't take the most conventional into Software Engineering. I completed a Web
-          Development Bootcamp set in the heart of Lisbon, Portugal. During my time on the course I
-          covered a wide range of skills and coding languages. By the end of the course, I had
-          created three web applications.
+          I didn't take the most conventional into Software Engineering. I
+          completed a Web Development Bootcamp set in the heart of Lisbon,
+          Portugal. During my time on the course I covered a wide range of
+          skills and coding languages. By the end of the course, I had created
+          three web applications.
         </p>
       </section>
       <section>
@@ -59,9 +59,10 @@ const Modal2 = () => {
         <h2>bendando</h2>
         <h4>Web Development Agency</h4>
         <p>
-          This was a Web Development Bootcamp set in the heart of Lisbon, Portugal. During my time
-          on the course I covered a wide range of skills and coding languages. By the end of the
-          course, I had created three web applications.
+          This was a Web Development Bootcamp set in the heart of Lisbon,
+          Portugal. During my time on the course I covered a wide range of
+          skills and coding languages. By the end of the course, I had created
+          three web applications.
         </p>
       </section>
     </div>
