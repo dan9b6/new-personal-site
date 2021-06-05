@@ -145,7 +145,7 @@ const Modal3 = () => {
       </section>
       <div className="line"></div>
       <section>
-        <img src="images/wave.gif" />
+        <img src="images/bdlogo1.png" />
         <h2>2021</h2>
         <p>
           I began an apprenticeship with BenDando. Currently, most of the work I

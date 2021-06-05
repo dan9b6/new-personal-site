@@ -58,14 +58,16 @@ const Modal2 = () => {
         </section>
         <section>
           <h2>Employment</h2>
-          <img src="images/ttr.png" alt="" />
+          <img src="images/bdlogo1.png" alt="" />
           <h2>bendando</h2>
           <h4>Web Development Agency</h4>
           <p>
-            This was a Web Development Bootcamp set in the heart of Lisbon,
-            Portugal. During my time on the course I covered a wide range of
-            skills and coding languages. By the end of the course, I had created
-            three web applications.
+            Currently I am working for BenDando as a Junior Software Engineer. I
+            began working here at the start of January 2021, right in in the
+            middle of the second lockdown. In my role I am working from home and
+            am focused on the Front-end development of Web Applications. The
+            technologies I work most with is React, Next, HTML, CSS and
+            MDBootstrap.
           </p>
         </section>
       </div>
