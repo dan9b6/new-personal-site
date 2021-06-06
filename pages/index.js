@@ -91,7 +91,7 @@ export default function Home() {
       </div>
       {/* Projects */}
       <div className="projects" id="projects">
-        <img src="images/point-down.png" alt="" id="point-down" />
+        <img src="images/point-down.png" alt="" id="projects" />
         <h1>Projects</h1>
         <h2>Here is a few of my recent projects...</h2>
         <div className="row">

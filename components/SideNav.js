@@ -45,7 +45,7 @@ const SideNav = ({ closeModal }) => {
         </a>
         <div className="line"></div>
         <a
-          href="#projects"
+          href="#point-down"
           onClick={() => {
             setNavToggle(!navToggle);
             closeModal();

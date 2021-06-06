@@ -180,7 +180,7 @@ nav.active {
     color: #192542;
     text-align: center;
     position: relative;
-    #point-down {
+    #projects {
       width: 300px;
       position: absolute;
       top: -115px;
@@ -326,6 +326,11 @@ nav.active {
             width: 100%;
           }
         }
+      }
+    }
+    .close {
+      button {
+        width: 400px;
       }
     }
   }
