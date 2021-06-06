@@ -136,8 +136,11 @@ export default function Home() {
           </section>
         </div>
         <h4>
-          Check out my <a href="https://github.com/dan9b6">GitHub</a> for more
-          of my work!
+          Check out my{" "}
+          <a href="https://github.com/dan9b6" target="_blank">
+            GitHub
+          </a>{" "}
+          for more of my work!
         </h4>
       </div>
       {/* Contact */}
@@ -165,13 +168,16 @@ export default function Home() {
           <a href="tel:+447956107973">
             <AiOutlinePhone />
           </a>
-          <a href="https://github.com/dan9b6/">
+          <a href="https://github.com/dan9b6/" target="_blank">
             <AiOutlineGithub />
           </a>
-          <a href="https://www.linkedin.com/in/dan-burton-654ba4180/">
+          <a
+            href="https://www.linkedin.com/in/dan-burton-654ba4180/"
+            target="_blank"
+          >
             <AiOutlineLinkedin />
           </a>
-          <a href="https://www.instagram.com/danburts/">
+          <a href="https://www.instagram.com/danburts/" target="_blank">
             <AiOutlineInstagram />
           </a>
         </div>

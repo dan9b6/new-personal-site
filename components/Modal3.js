@@ -129,7 +129,10 @@ const Modal3 = () => {
             <li>
               <span>
                 and many other skills which you can find on this
-                <a href="https://www.linkedin.com/in/dan-burton-654ba4180/">
+                <a
+                  href="https://www.linkedin.com/in/dan-burton-654ba4180/"
+                  target="_blank"
+                >
                   {" "}
                   link.
                 </a>
