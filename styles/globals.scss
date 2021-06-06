@@ -570,6 +570,9 @@ nav.active {
       display: flex;
       padding-top: 20px;
       section {
+        img {
+          height: 40px;
+        }
         margin: 20px;
         display: flex;
         flex-direction: column;

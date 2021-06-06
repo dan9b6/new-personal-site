@@ -31,18 +31,20 @@ export default function Home() {
       <SideNav closeModal={resetModal} />
       {/* Intro */}
       <div className="landing">
-        <h1>Hello. I’m Dan. I’m a Web Developer looking for a new role!</h1>
-        <img src="images/wave.gif" alt="It's me waving" />
+        <h1 data-aos="fade-in">
+          Hello. I’m Dan. I’m a Web Developer looking for a new role!
+        </h1>
+        <img src="images/wave.gif" alt="It's me waving" data-aos="zoom-in" />
       </div>
       {/* CV */}
       <div className="cv" id="cv">
-        <div className="header">
+        <div className="header" data-aos="fade-in">
           <h2>
             Are you considering employing a Junior Web Developer? How long have
             you got to be convinced I’m your guy?
           </h2>
         </div>
-        <div className="buttons">
+        <div className="buttons" data-aos="zoom-in">
           <div>
             <button onClick={() => setModal1(true)}>I have no time..</button>
           </div>
@@ -56,9 +58,9 @@ export default function Home() {
       </div>
       {/* Attributes */}
       <div className="attributes" id="attributes">
-        <h1>What can I offer?</h1>
+        <h1 data-aos="fade-in">What can I offer?</h1>
         <div className="row">
-          <section>
+          <section data-aos="zoom-in">
             <img src="images/sign.gif" alt="" />
             <h2>Try before you buy...</h2>
             <p>
@@ -68,7 +70,7 @@ export default function Home() {
               making me permanent.
             </p>
           </section>
-          <section>
+          <section data-aos="zoom-in">
             <img src="images/enthusiasm.gif" alt="" />
             <h2>Enthusiasm...</h2>
             <p>
@@ -78,7 +80,7 @@ export default function Home() {
               minded and enthusiastic to learn and improve.
             </p>
           </section>
-          <section>
+          <section data-aos="zoom-in">
             <img src="images/bulb.gif" alt="" />
             <h2>Innovation...</h2>
             <p>
@@ -91,11 +93,16 @@ export default function Home() {
       </div>
       {/* Projects */}
       <div className="projects" id="projects">
-        <img src="images/point-down.png" alt="" id="projects" />
+        <img
+          src="images/point-down.png"
+          alt=""
+          id="projects"
+          data-aos="zoom-in"
+        />
         <h1>Projects</h1>
         <h2>Here is a few of my recent projects...</h2>
         <div className="row">
-          <section>
+          <section data-aos="zoom-in">
             <img src="images/msol.jpg" alt="" />
             <h2>Marisol Corona</h2>
             <p>
@@ -107,7 +114,7 @@ export default function Home() {
               form with animations and validation.
             </p>
           </section>
-          <section>
+          <section data-aos="zoom-in">
             <img src="images/bd.jpg" alt="" />
             <h2>BenDando</h2>
             <p>
@@ -121,7 +128,7 @@ export default function Home() {
               different components of the website.
             </p>
           </section>
-          <section>
+          <section data-aos="zoom-in">
             <img src="images/fhed.jpg" alt="" />
             <h2>FootHeads</h2>
             <p>
@@ -135,7 +142,7 @@ export default function Home() {
             </p>
           </section>
         </div>
-        <h4>
+        <h4 data-aos="fade-in">
           Check out my{" "}
           <a href="https://github.com/dan9b6" target="_blank">
             GitHub
@@ -145,15 +152,15 @@ export default function Home() {
       </div>
       {/* Contact */}
       <div className="close" id="contact">
-        <h1>
+        <h1 data-aos="fade-in">
           "I may not have 100 years of experience, but I am 100% ready to be a
           developer!"
         </h1>
-        <h4>
+        <h4 data-aos="fade-in">
           Click on the really big and enthusiastic button to get in touch...
         </h4>
-        <img src="images/point-side.png" alt="" />
-        <a href="mailto:danbh7296@gmail.com">
+        <img src="images/point-side.png" alt="" data-aos="zoom-in" />
+        <a href="mailto:danbh7296@gmail.com" data-aos="zoom-in">
           <button>Click here to hire your next developer!</button>
         </a>
       </div>
