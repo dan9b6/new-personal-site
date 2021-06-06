@@ -2,7 +2,7 @@ import React from "react";
 
 const Modal3 = () => {
   return (
-    <div className="modal modal-3">
+    <div className="modal modal-3" data-aos="zoom-in" data-aos-delay="800">
       <section>
         <img src="images/baby.png" />
         <h2>1996</h2>
@@ -129,10 +129,7 @@ const Modal3 = () => {
             <li>
               <span>
                 and many other skills which you can find on this
-                <a
-                  href="https://www.linkedin.com/in/dan-burton-654ba4180/"
-                  target="_blank"
-                >
+                <a href="https://www.linkedin.com/in/dan-burton-654ba4180/">
                   {" "}
                   link.
                 </a>

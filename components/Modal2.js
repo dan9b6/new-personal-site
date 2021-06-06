@@ -2,7 +2,7 @@ import React from "react";
 
 const Modal2 = () => {
   return (
-    <div className="modal modal-2">
+    <div className="modal modal-2" data-aos="zoom-in" data-aos-delay="800">
       <div className="row">
         <section>
           <h2>Bio</h2>
