@@ -251,6 +251,7 @@ nav.active {
     }
     img {
       position: absolute;
+      z-index: 2;
       width: 200px;
       right: 0;
       top: 50%;
@@ -570,6 +571,7 @@ nav.active {
       display: flex;
       padding-top: 20px;
       section {
+        width: 400px;
         img {
           height: 40px;
         }
