@@ -49,8 +49,8 @@ const Modal2 = () => {
           </h2>
           <h4>Top 3 Global Tech Academy</h4>
           <p>
-            I didn't take the most conventional into Software Engineering. I
-            completed a Web Development Bootcamp set in the heart of Lisbon,
+            I didn't take the most conventional route into Software Engineering.
+            I completed a Web Development Bootcamp set in the heart of Lisbon,
             Portugal. During my time on the course I covered a wide range of
             skills and coding languages. By the end of the course, I had created
             three web applications.
@@ -63,9 +63,9 @@ const Modal2 = () => {
           <h4>Web Development Agency</h4>
           <p>
             Currently I am working for BenDando as a Junior Software Engineer. I
-            began working here at the start of January 2021, right in in the
-            middle of the second lockdown. In my role I am working from home and
-            am focused on the Front-end development of Web Applications. The
+            began working here at the start of January 2021, right in the middle
+            of the second lockdown. In my role I am working from home and am
+            focused on the front-end development of web applications. The
             technologies I work most with is React, Next, HTML, CSS and
             MDBootstrap.
           </p>
