@@ -61,7 +61,7 @@ export default function Home() {
         <h1 data-aos="fade-in">What can I offer?</h1>
         <div className="row">
           <section data-aos="zoom-in">
-            <img src="images/sign.gif" alt="" />
+            <img src="images/sign.gif" alt="Try before you buy" />
             <h2>Try before you buy...</h2>
             <p>
               I’m so eager to prove my worth, I’ll give you two weeks free. If
@@ -71,7 +71,7 @@ export default function Home() {
             </p>
           </section>
           <section data-aos="zoom-in">
-            <img src="images/enthusiasm.gif" alt="" />
+            <img src="images/enthusiasm.gif" alt="I am enthusiastic" />
             <h2>Enthusiasm...</h2>
             <p>
               This is something I am incredibly passionate about. I know I will
@@ -81,7 +81,7 @@ export default function Home() {
             </p>
           </section>
           <section data-aos="zoom-in">
-            <img src="images/bulb.gif" alt="" />
+            <img src="images/bulb.gif" alt="I am innovative" />
             <h2>Innovation...</h2>
             <p>
               I hold a big desire to be at the forefront of innovation, which is
@@ -95,7 +95,7 @@ export default function Home() {
       <div className="projects" id="projects">
         <img
           src="images/point-down.png"
-          alt=""
+          alt="pointing down"
           id="projects"
           data-aos="zoom-in"
         />
@@ -103,7 +103,7 @@ export default function Home() {
         <h2>Here is a few of my recent projects...</h2>
         <div className="row">
           <section data-aos="zoom-in">
-            <img src="images/msol.jpg" alt="" />
+            <img src="images/msol.jpg" alt="Marisol Corona" />
             <h2>Marisol Corona</h2>
             <p>
               This web app was built using Next JS. Originally the site was
@@ -115,7 +115,7 @@ export default function Home() {
             </p>
           </section>
           <section data-aos="zoom-in">
-            <img src="images/bd.jpg" alt="" />
+            <img src="images/bd.jpg" alt="Bendando" />
             <h2>BenDando</h2>
             <p>
               This website was built using Next JS, HTML, SASS and Javascript.
@@ -129,7 +129,7 @@ export default function Home() {
             </p>
           </section>
           <section data-aos="zoom-in">
-            <img src="images/fhed.jpg" alt="" />
+            <img src="images/fhed.jpg" alt="Foot heads" />
             <h2>FootHeads</h2>
             <p>
               This is a web app created using React.JS, Node.JS, a restful API,
@@ -159,7 +159,11 @@ export default function Home() {
         <h4 data-aos="fade-in">
           Click on the really big and enthusiastic button to get in touch...
         </h4>
-        <img src="images/point-side.png" alt="" data-aos="zoom-in" />
+        <img
+          src="images/point-side.png"
+          alt="Pointing to the button"
+          data-aos="zoom-in"
+        />
         <a href="mailto:danbh7296@gmail.com" data-aos="zoom-in">
           <button>Click here to hire your next developer!</button>
         </a>
